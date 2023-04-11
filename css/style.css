@@ -1,0 +1,1520 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Open Style Body */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Close Style Body */
+
+/* Open Style Margin */
+.margin-web {
+  margin-top: 50px;
+}
+
+.margin-top-web-1 {
+  margin-top: 100px;
+}
+
+.margin-top-web-2 {
+  margin-top: 170px;
+}
+/* Close Style Margin */
+
+/* Open Style Heading */
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 54px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 42px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.heading-text-one-40 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-one {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-two {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-three {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-four {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+/* Close Style Heading */
+
+/* Open Style Paragraf */
+.paragraph-text-one {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph-text-two {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-cs {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.paragraph-text-three {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph-text-four {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+}
+/* Close Style Paragraf */
+
+/* Open Style Font Wight */
+.f-w-700 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.f-w-600 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.f-w-500 {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.f-w-400 {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.f-w-300 {
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+/* Close Style Font Wight */
+
+/* Open Style Color Primary Satu */
+.app-primary-satu-0 {
+  color: #fcf152;
+}
+
+.app-primary-satu-20 {
+  color: #fff67a;
+}
+
+.app-primary-satu-40 {
+  color: #fef8a5;
+}
+
+.app-primary-satu-60 {
+  color: #fffbc7;
+}
+/* Close Style Color Primary Satu */
+
+/* Open Style Color Primary Dua */
+.app-primary-dua-0 {
+  color: #11293c;
+}
+
+.app-primary-dua-20 {
+  color: #0d3a5e;
+}
+
+.app-primary-dua-40 {
+  color: #094e85;
+}
+
+.app-primary-dua-60 {
+  color: #236aa3;
+}
+
+.app-primary-dua-80 {
+  color: #273C4D;
+}
+/* Close Style Color Primary Dua */
+
+/* Open Style Color Gradient */
+.app-gradient-0 {
+  background: linear-gradient(90deg, #11293c 0%, #236aa3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.app-gradient-20 {
+  background: linear-gradient(90deg, #fff34b 0%, #fffbc7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.app-gradient-40 {
+  background: linear-gradient(136.68deg, #11293c 0%, #958b00 103.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* Close Style Color Gradient */
+
+/* Open Style Color Secondary */
+.app-secondary-0 {
+  color: #838383;
+}
+
+.app-secondary-20 {
+  color: #6c6c6c;
+}
+
+.app-secondary-40 {
+  color: #ededed;
+}
+/* Close Style Color Secondary */
+
+/* Open Style Color Text */
+.app-text-0 {
+  color: #292929;
+}
+
+.app-text-20 {
+  color: #555555;
+}
+
+.app-text-40 {
+  color: #7c7c7c;
+}
+
+.app-text-60 {
+  color: #b6b6b6;
+}
+/* Close Style Color Text */
+
+/* Open Style Color Warning */
+.app-warning-0 {
+  color: #ffcb56;
+}
+
+.app-warning-20 {
+  color: #ffbc26;
+}
+
+.app-warning-40 {
+  color: #fff9d8;
+}
+/* Close Style Color Warning */
+
+/* Open Style Color Error */
+.app-error-0 {
+  color: #f80000;
+}
+
+.app-error-20 {
+  color: #fe8585;
+}
+
+.app-error-40 {
+  color: #fee9e9;
+}
+/* Close Style Color Error */
+
+/* Open Style Color Success */
+.app-success-0 {
+  color: #0b9444;
+}
+
+.app-success-0 {
+  color: #1eeb4b;
+}
+
+.app-success-0 {
+  color: #d2ffdc;
+}
+/* Close Style Color Success */
+
+/* Open Style Color Base */
+.app-base-0 {
+  color: #ffffff;
+}
+
+.app-base-20 {
+  color: #f9f9f9;
+}
+
+.app-base-40 {
+  color: #000;
+}
+/* Close Style Color Base */
+
+/* Open Style Navbar */
+/* .navbar-brand img {
+    width: 230px;
+  } */
+/* Close Style Navbar */
+
+/* Close Style Navbar */
+.background-home {
+  width: 100%;
+  height: 887.77px;
+  background-image: url(../image/background/background-landi\ ngpage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-portofolio {
+  width: 100%;
+  height: 712px;
+  background-image: url(../image/portofolio/bg-portofolio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-portofolio-about {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #868686;
+  margin-right: 30px;
+}
+
+.navbar-nav a.link-active {
+  color: #FFD600;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-item .btn-app-request {
+  width: 200px;
+  height: 40px;
+  background: #11293c;
+  color: #fff;
+  box-shadow: 10px 10px 40px rgba(88, 88, 88, 0.3);
+  border-radius: 6px;
+}
+
+.dd-layanan {
+  width: 450px;
+}
+
+.btn-transparent-layanan {
+  color: #FFD600;
+}
+
+.btn-transparent-layanan:hover {
+  color: #FFD600;
+}
+
+.dropdown-item:active {
+  background: #FFD600;;
+}
+/* Close Style Navbar */
+
+/* Open Style Home */
+.btn-home {
+  width: 227px;
+  height: 55px;
+  background: #11293c;
+  box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
+  border-radius: 6px;
+}
+
+.btn-home-tentang-portofolio-layanan {
+  width: 227px;
+  height: 55px;
+  background: #11293c;
+  border-radius: 6px;
+}
+
+.btn-home:hover {
+  width: 227px;
+  height: 55px;
+  background: #FFD600;
+  box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
+  border-radius: 6px;
+  transition: 1rem;
+}
+
+.btn-home-tentang-portofolio-layanan:hover {
+  width: 227px;
+  height: 55px;
+  background: #FFD600;
+  box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
+  border-radius: 6px;
+  transition: 1rem;
+}
+
+.link-home {
+  text-decoration: none;
+  color: #fff;
+}
+
+.grup-tentang-home {
+  width: 600px;
+  height: 537px;
+  margin-left: 178px;
+  margin-top: -30px;
+  background-image: url(../image/tentang/bg-home-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grup-portofolio-home {
+  width: 600px;
+  height: 537px;
+  margin-left: -155px;
+  margin-top: -30px;
+  background-image: url(../image/background/bg-portofolio-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Close Style Home */
+
+/*========= Open Style Layanan Kami =========*/
+.background-layanan {
+  width: 100%;
+  height: 731px;
+  background-color: #11293c;
+}
+
+.card-layanan {
+  width: 545px;
+  height: 179px;
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 26px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+}
+
+.icon-layanan-kami {
+  width: 115px;
+  height: 115px;
+  margin: 15px;
+  filter: drop-shadow(0px 4px 40px rgba(130, 130, 130, 0.25));
+}
+
+.card-paket-layanan-one {
+  width: 100%;
+  height: 560px;
+  padding: 10px;
+  margin: 15px auto;
+  background: #FFFFFF;
+  box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
+  border-radius: 26px;
+}
+
+.card-paket-layanan-two {
+  width: 100%;
+  height: 560px;
+  padding: 10px;
+  margin: 15px auto;
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
+  border-radius: 26px;
+}
+
+.btn-paket-lanan-one {
+  width: 302px;
+  height: 55px;
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  border-radius: 6px;
+  color: #11293C;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.btn-paket-lanan-one:hover {
+  width: 302px;
+  height: 55px;
+  background: #11293C;
+  border-radius: 6px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+}
+
+  .btn-paket-lanan-two {
+  width: 302px;
+  height: 55px;
+  background: #11293C;
+  border-radius: 6px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.btn-paket-lanan-two:hover {
+  width: 302px;
+  height: 55px;
+  background: #11293C;
+  border-radius: 6px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.grop-text-layanan-one {
+  padding-left: 160px;
+  margin-top: -115px;
+}
+
+.grop-text-layanan-two {
+  padding-left: 160px;
+  margin-top: -135px;
+}
+/*========= Close Style Layanan Kami =========*/
+
+/*========= Open Style portfolio =========*/
+.card-portfolio {
+  width: 358px;
+  height: 447px;
+  padding: 5px;
+  margin: 15px auto;
+  background: #ffffff;
+  border-radius: 26px;
+  box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
+}
+
+.img-portfolio {
+  width: 346px;
+  height: 280px;
+}
+
+.link-read-more {
+  text-decoration: none;
+}
+
+.group-read-more-in-blog {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.text-layanan {
+  /* font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none; */
+  letter-spacing: 0.01em;
+  color: #0d3a5e;
+}
+
+.icon-layanan {
+  /* font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.01em; */
+  color: #0d3a5e;
+}
+
+.text-read {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  color: #0d3a5e;
+}
+
+.icon-read {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #0d3a5e;
+}
+
+.btn-Portfolio {
+  width: 185px;
+  height: 55px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
+  border-radius: 6px;
+}
+
+.btn-portfolio-detail-home {
+  width: 177px;
+  height: 55px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  border-radius: 6px;
+}
+
+.btn-portfolio-detail-about {
+  width: 177px;
+  height: 55px;
+  padding: 15px;
+  background: #11293C;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-portfolio-detail-about:hover {
+  width: 177px;
+  height: 55px;
+  padding: 17px;
+  background: #11293C;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+}
+
+.link-Portfolio {
+  text-decoration: none;
+  color: #000;
+}
+/* .group-text-portfolio {
+  padding: 10px;
+} */
+/*========= Close Style portfolio =========*/
+
+/*========= Open Style Testimonial =========*/
+.group-col-one-testimonial {
+  margin-top: 50px;
+}
+
+.bg-testimonial {
+  width: 780px;
+  height: 489px;
+  margin-left: -145px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  border-radius: 0px 500px 500px 0px;
+}
+
+.group-testimonial {
+  padding: 60px;
+  margin: auto;
+  padding-left: 125px;
+}
+
+.icon-testimonial {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-client {
+  width: 35% !important;
+}
+/*========= Close Style Testimonial =========*/
+
+/*========= Open Style Let's Start Talking With us =========*/
+.card-contact {
+  width: 580px;
+  height: 86px;
+  background: #f9f9f9;
+  border-radius: 100px;
+}
+
+.icon-wa {
+  width: 46px;
+  height: 46px;
+  margin: 20px;
+  margin-left: 35px;
+}
+
+.group-card-contact {
+  margin-top: -59px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.group-button-contact {
+  margin-left: 110px;
+  margin-top: -25px;
+}
+
+.btn-contact {
+  width: 180px;
+  height: 74px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  border-radius: 100px;
+}
+
+.group-btn-contact {
+  padding: 50px;
+  margin-top: 135px;
+}
+
+.link-contact {
+  text-decoration: none;
+  color: #11293c;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+}
+/*========= Close Style Let's Start Talking With us =========*/
+
+/* ======================================= OPEN STYLE TENTANG ======================================= */
+
+/*========= Open Our Team,Our Family =========*/
+.card-our-team-tentang {
+  width: 280px;
+  height: 369px;
+  padding: 3px;
+  margin: 15px auto;
+}
+
+.group-text-card-tentang {
+  padding: 2px;
+  text-align: center;
+}
+
+/* Open Our Team,Our Family TENTANG*/
+.grop-json-family {
+  margin-top: -140px;
+}
+/* Close Our Team,Our Family TENTANG*/
+
+/* Open Faust Aegis Network */
+.bg-faust-aegis-network {
+  background: #11293C;
+  width: 100%;
+  height: 502px;
+}
+
+.bg-paket-layanan {
+  background: #11293C;
+  width: 100%;
+  height: 100%;
+}
+/* Close Faust Aegis Network */
+
+/* Open Style Tab */
+/* Style the tab */
+.tab {
+  text-align: center;
+  overflow: hidden;
+  /* border: 1px solid #ccc;
+  background-color: #f1f1f1; */
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  color: #000;
+  background-color: inherit;
+  float: none;
+  outline: none;
+  cursor: pointer;
+  /* padding: 14px 16px; */
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks {
+  width: 198px;
+  height: 49px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-different {
+  width: 300px;
+  height: 49px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  color: #fff;
+  border: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+}
+
+.tablinks-active {
+  padding: 14px 16px;
+  border-radius: 26px;
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  border: none;
+  color: #fff !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /* border: 1px solid #ccc;
+  border-top: none; */
+}
+/* Close Style Ta */
+
+/* Open Style pagination */
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.page-item {
+  margin: 10px;
+}
+
+#page-link-item {
+  /* border-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px; */
+  color: #FFFFFF;
+}
+
+.page-item .page-link {
+  width: 37px;
+  height: 37px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  /* color: #0d6efd; */
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.page-link {
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+}
+
+.page-item:not(:first-child) .page-link {
+  margin-left: -1px;
+}
+
+.active-paginate-cs a {
+  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+}
+
+#page-link-number {
+  background: none;
+  background: #11293C;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  /* color: #1076BD; */
+  border-color: #EDEDED;
+  border-radius: 10px;
+}
+
+.page-item {
+  width: 37px;
+  border-radius: 2px;
+  /* padding: 6px 13px; */
+  /* gap: 5px; */
+}
+/* Close Style pagination */
+/*========= Close Our Team,Our Family =========*/
+
+/* ======================================= CLOSE STYLE TENTANG ======================================= */
+
+
+
+/* ======================================= OPEN STYLE LAYANAN WEBDEV ======================================= */
+.bg-layanan-detail-webdev-dan-sosmed {
+  width: 575px;
+  height: 720px;
+  margin-top: -112px;
+  margin-left: -20px;
+  background-image: url(../image/layanan/bg-layanan-detail-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-layanan-detail-ads-dan-brandesign {
+  width: 575px;
+  height: 720px;
+  margin-top: -112px;
+  margin-left: 75px;
+  background-image: url(../image/layanan/bg-layanan-detail-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img-layanan-detail-webdev {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.img-layanan-detail-sosmed {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.img-layanan-detail-ads {
+  margin-top: 200px;
+  margin-left: -80px;
+}
+
+.img-layanan-detail-bradesign {
+  margin-top: 190px;
+  margin-left: -80px;
+}
+
+.icon-paket-basic-layanan {
+  width: 46px;
+  height: 46px;
+}
+
+.gruop-img-layanan-webdev {
+  padding: 20px;
+  margin: 5px auto;
+}
+
+.gruop-text-layanan-webdev {
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.icon-paket-layanan {
+  width: 24px;
+  height: 24px;
+}
+
+.bg-number-cs {
+  width: 56px;
+  height: 56px;
+  border-radius: 30px;
+  /* margin-left: 175px; */
+  background: #FFFBC7;
+}
+/* ======================================= CLOSE STYLE LAYANAN WEBDEV ======================================= */
+
+
+/*======== Open Style img titik ========*/
+.group-image-hero {
+  position: relative;
+}
+
+.count-frame-1-home {
+  position: absolute;
+  text-align: center;
+  bottom: 510px;
+  margin-left: -100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: none; */
+}
+
+.count-frame-2-home {
+  position: absolute;
+  text-align: center;
+  bottom: 510px;
+  margin-left: 1100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: none; */
+}
+
+
+.count-frame-1-layanan {
+  position: absolute;
+  text-align: center;
+  bottom: 610px;
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: none; */
+}
+
+.count-frame-2-layanan {
+  position: absolute;
+  text-align: center;
+  bottom: 610px;
+  margin-left: 1180px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: none; */
+}
+
+
+.count-frame-1-portofolio {
+  position: absolute;
+  text-align: center;
+  bottom: -50px;
+  margin-left: 1215px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: -1;
+}
+
+.count-frame-contact {
+  position: absolute;
+  text-align: center;
+  bottom: 970px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: none; */
+}
+
+/* .icon-frame-home {
+  width: 294px;
+  height: 75px;
+  margin-top: -14px;
+} */
+/*======== Close Style img titik ========*/
+
+
+/* ================================= OPEN FOOTER =================================*/
+
+.site-footer {
+  background: #11293c;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links li a:hover {
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffd600;
+  font-weight: bold;
+}
+
+.footer-links li a:active,
+.footer-links li a:focus,
+.footer-links li a:hover {
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffd600;
+  font-weight: bold;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.copyright-text {
+  margin: 0;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+
+  .width-text-footer {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .width-text-footer {
+    width: 100%;
+  }
+
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  margin-right: 8px;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .width-text-footer {
+    width: 100%;
+  }
+
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+/* close footer style */
+
+/* ================================= OPEN RESPONSIVE MEDIA SCREEN =================================*/
+@media only screen and (max-width: 767px) {
+  .background-layanan {
+    width: 100%;
+    height: 100%;
+  }
+
+  .group-testimonial {
+    padding: 30px;
+  }
+
+  .card-layanan {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+  }
+
+  .card-portfolio {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+  }
+
+  .card-contact {
+    width: 100%;
+    height: 215px;
+    border-radius: 50px;
+  }
+
+  .img-portfolio {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .grop-text-layanan-one {
+    padding-left: 150px;
+    margin-top: -130px;
+  }
+
+  .grop-text-layanan-two {
+    padding-left: 150px;
+    margin-top: -135px;
+  }
+
+  .bg-testimonial {
+    width: 100%;
+    margin-left: -12px;
+  }
+
+  .group-card-contact {
+    display: block;
+    margin-top: -15px;
+    margin-left: 110px;
+  }
+
+  .icon-wa {
+    margin-left: 180px;
+  }
+
+  .icon-layanan-kami {
+    width: 30%;
+    padding: 5px;
+  }
+
+  .icon-testimonial {
+    width: 35%;
+    height: 30%;
+  }
+
+  .icon-client {
+    width: 50% !important;
+    margin: 110px;
+  }
+
+  .group-button-contact {
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .heading-text-two {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .grup-tentang-home {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-top: auto;
+      /* background-image: url(../image/background/background-tentang.png); */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  .grup-portofolio-home {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    background-image: url(../image/background/bg-portofolio-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .bg-faust-aegis-network {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .count-frame-1-home  {
+    display: none;
+  }
+
+  .count-frame-2-home  {
+    display: none;
+  }
+
+  .count-frame-1-portofolio {
+    display: none;
+  }
+
+  .margin-top-web-about-portfolio {
+    margin-top: 200px;
+  }
+
+  .dd-layanan {
+    width: 100%;
+  }
+
+  .count-frame-contact {
+    display: none;
+  }
+
+  .bg-number-cs {
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    /* margin-left: 175px; */
+    background: #FFFBC7;
+  }
+
+  .img-layanan-detail-webdev {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-ads {
+    margin-top: 80px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-sosmed {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-bradesign {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .bg-layanan-detail-webdev-dan-sosmed {
+    width: 100%;
+    height: 470px;
+    margin-left: auto;
+  }
+
+  .bg-layanan-detail-ads-dan-brandesign{
+    width: 100%;
+    height: 470px;
+    margin-left: auto;
+    margin-top: auto;
+  }
+  
+  .icon-frame-home {
+    display: none;
+  }
+
+  .icon-frame-layanan-detail {
+    display: none;
+  }
+
+  .bg-faust-aegis-network {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+  .background-layanan {
+    width: 100%;
+    height: 100%;
+  }
+
+  .group-testimonial {
+    padding: 30px;
+  }
+
+  .card-layanan {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+  }
+
+  .card-portfolio {
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+  }
+
+  .card-contact {
+    width: 100%;
+    height: 215px;
+    border-radius: 50px;
+  }
+
+  .img-portfolio {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .grop-text-layanan-one {
+    padding-left: 120px;
+    margin-top: -100px;
+  }
+
+  .grop-text-layanan-two {
+    padding-left: 120px;
+    margin-top: -100px;
+  }
+
+  .bg-testimonial {
+    width: 100%;
+    margin-left: -44px;
+  }
+
+  .group-card-contact {
+    display: block;
+    margin-top: -15px;
+    margin-left: 75px;
+  }
+
+  .icon-wa {
+    margin-left: 140px;
+  }
+
+  .icon-layanan-kami {
+    width: 35%;
+    margin: 5px auto;
+  }
+
+  .icon-testimonial {
+    width: 35%;
+    height: 30%;
+  }
+
+  .group-button-contact {
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .heading-text-two {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* .dropdown-menu {
+    width: 100%;
+  } */
+
+  .count-frame-contact {
+    display: none;
+  }
+  
+
+  .img-layanan-detail-webdev {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-ads {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-sosmed {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .img-layanan-detail-bradesign {
+    margin-top: 100px;
+    margin-left: auto;
+  }
+
+  .bg-layanan-detail-webdev-dan-sosmed {
+    width: 100%;
+    height: 450px;
+    margin-left: auto;
+  }
+
+  .bg-number-cs {
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    /* margin-left: 120px; */
+    background: #FFFBC7;
+  }
+
+  .bg-layanan-detail-ads-dan-brandesign{
+    width: 100%;
+    height: 450px;
+    margin-left: auto;
+  }
+
+  .icon-frame-home {
+    display: none;
+  }
+
+  .icon-frame-layanan-detail {
+    display: none;
+  }
+
+  .bg-faust-aegis-network {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grup-tentang-home {
+    width: 100%;
+    height: 300px;
+    margin-top: auto;
+    margin-left: 35px;
+  }
+
+  .grup-portofolio-home {
+    width: 100%;
+    height: 300px;
+    margin-top: auto;
+    margin-left: -35px;
+  }
+}
