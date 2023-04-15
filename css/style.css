@@ -20,6 +20,53 @@ body {
 }
 /* Close Style Margin */
 
+/* teat */
+.carousel-control-prev-icon {
+  background-image: url("../image/previous.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../image/next.svg");
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  bottom: -330px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  bottom: -330px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
 /* Open Style Heading */
 h1 {
   font-weight: bold;
@@ -62,7 +109,6 @@ h6 {
   letter-spacing: 1.5px;
   font-family: "Poppins", sans-serif;
 }
-
 
 .heading-text-one-40 {
   font-size: 40px;
@@ -183,7 +229,7 @@ h6 {
 }
 
 .app-primary-dua-80 {
-  color: #273C4D;
+  color: #273c4d;
 }
 
 .app-primary-dua-100 {
@@ -333,6 +379,11 @@ h6 {
   height: 100%;
 }
 
+.img-artnership {
+  width: 200px;
+  height: 100%;
+}
+
 .nav-item .nav-link {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -343,7 +394,7 @@ h6 {
 }
 
 .navbar-nav a.link-active {
-  color: #FFD600;
+  color: #ffd600;
   font-size: 14px;
   font-weight: 700;
 }
@@ -362,15 +413,15 @@ h6 {
 }
 
 .btn-transparent-layanan {
-  color: #FFD600;
+  color: #ffd600;
 }
 
 .btn-transparent-layanan:hover {
-  color: #FFD600;
+  color: #ffd600;
 }
 
 .dropdown-item:active {
-  background: #FFD600;;
+  background: #ffd600;
 }
 /* Close Style Navbar */
 
@@ -393,7 +444,7 @@ h6 {
 .btn-home:hover {
   width: 227px;
   height: 55px;
-  background: #FFD600;
+  background: #ffd600;
   box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
   border-radius: 6px;
   transition: 1rem;
@@ -402,7 +453,7 @@ h6 {
 .btn-home-tentang-portofolio-layanan:hover {
   width: 227px;
   height: 55px;
-  background: #FFD600;
+  background: #ffd600;
   box-shadow: 10px 10px 50px rgba(254, 218, 0, 0.68);
   border-radius: 6px;
   transition: 1rem;
@@ -464,7 +515,7 @@ h6 {
   height: 560px;
   padding: 10px;
   margin: 15px auto;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
   border-radius: 26px;
 }
@@ -474,7 +525,7 @@ h6 {
   height: 560px;
   padding: 10px;
   margin: 15px auto;
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
   border-radius: 26px;
 }
@@ -482,9 +533,9 @@ h6 {
 .btn-paket-lanan-one {
   width: 302px;
   height: 55px;
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   border-radius: 6px;
-  color: #11293C;
+  color: #11293c;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -494,7 +545,7 @@ h6 {
 .btn-paket-lanan-one:hover {
   width: 302px;
   height: 55px;
-  background: #11293C;
+  background: #11293c;
   border-radius: 6px;
   color: #fff;
   font-style: normal;
@@ -503,10 +554,10 @@ h6 {
   padding: 15px;
 }
 
-  .btn-paket-lanan-two {
+.btn-paket-lanan-two {
   width: 302px;
   height: 55px;
-  background: #11293C;
+  background: #11293c;
   border-radius: 6px;
   color: #fff;
   font-style: normal;
@@ -518,7 +569,7 @@ h6 {
 .btn-paket-lanan-two:hover {
   width: 302px;
   height: 55px;
-  background: #11293C;
+  background: #11293c;
   border-radius: 6px;
   color: #fff;
   font-style: normal;
@@ -618,7 +669,7 @@ h6 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   border-radius: 6px;
 }
 
@@ -626,7 +677,7 @@ h6 {
   width: 177px;
   height: 55px;
   padding: 15px;
-  background: #11293C;
+  background: #11293c;
   border-radius: 6px;
   font-style: normal;
   font-weight: 700;
@@ -638,7 +689,7 @@ h6 {
   width: 177px;
   height: 55px;
   padding: 17px;
-  background: #11293C;
+  background: #11293c;
   border-radius: 6px;
   font-style: normal;
   font-weight: 700;
@@ -654,8 +705,6 @@ h6 {
   padding: 10px;
 } */
 /*========= Close Style portfolio =========*/
-
-
 
 /*========= Open Style count-image-1 =========*/
 .group-image-hero {
@@ -815,13 +864,13 @@ h6 {
 
 /* Open Faust Aegis Network */
 .bg-faust-aegis-network {
-  background: #11293C;
+  background: #11293c;
   width: 100%;
   height: 502px;
 }
 
 .bg-paket-layanan {
-  background: #11293C;
+  background: #11293c;
   width: 100%;
   height: 100%;
 }
@@ -835,7 +884,6 @@ h6 {
   /* border: 1px solid #ccc;
   background-color: #f1f1f1; */
 }
-
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -867,14 +915,14 @@ h6 {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   color: #fff;
   border: none;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   border-radius: 20px;
   color: #fff;
   border: none;
@@ -883,7 +931,7 @@ h6 {
 .tablinks-active {
   padding: 14px 16px;
   border-radius: 26px;
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
   border: none;
   color: #fff !important;
 }
@@ -914,7 +962,7 @@ h6 {
   /* border-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 50px; */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-item .page-link {
@@ -931,11 +979,11 @@ h6 {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .page-link {
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
 }
 
 .page-item:not(:first-child) .page-link {
@@ -943,18 +991,18 @@ h6 {
 }
 
 .active-paginate-cs a {
-  background: linear-gradient(95.5deg, #FCF152 3.44%, #FEDA00 98.23%);
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
 }
 
 #page-link-number {
   background: none;
-  background: #11293C;
+  background: #11293c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
   /* color: #1076BD; */
-  border-color: #EDEDED;
+  border-color: #ededed;
   border-radius: 10px;
 }
 
@@ -968,8 +1016,6 @@ h6 {
 /*========= Close Our Team,Our Family =========*/
 
 /* ======================================= CLOSE STYLE TENTANG ======================================= */
-
-
 
 /* ======================================= OPEN STYLE LAYANAN WEBDEV ======================================= */
 .bg-layanan-detail-webdev-dan-sosmed {
@@ -1039,10 +1085,9 @@ h6 {
   height: 56px;
   border-radius: 30px;
   /* margin-left: 175px; */
-  background: #FFFBC7;
+  background: #fffbc7;
 }
 /* ======================================= CLOSE STYLE LAYANAN WEBDEV ======================================= */
-
 
 /*======== Open Style img titik ========*/
 .group-image-hero {
@@ -1069,7 +1114,6 @@ h6 {
   /* display: none; */
 }
 
-
 .count-frame-1-layanan {
   position: absolute;
   text-align: center;
@@ -1089,7 +1133,6 @@ h6 {
   padding-bottom: 20px;
   /* display: none; */
 }
-
 
 .count-frame-1-portofolio {
   position: absolute;
@@ -1117,7 +1160,6 @@ h6 {
   margin-top: -14px;
 } */
 /*======== Close Style img titik ========*/
-
 
 /* ================================= OPEN FOOTER =================================*/
 
@@ -1321,16 +1363,16 @@ h6 {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
-  
+
   .grup-tentang-home {
-      width: 100%;
-      height: 100%;
-      margin-left: auto;
-      margin-top: auto;
-      /* background-image: url(../image/background/background-tentang.png); */
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    /* background-image: url(../image/background/background-tentang.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .grup-portofolio-home {
@@ -1348,12 +1390,12 @@ h6 {
     width: 100%;
     height: 100%;
   }
-  
-  .count-frame-1-home  {
+
+  .count-frame-1-home {
     display: none;
   }
 
-  .count-frame-2-home  {
+  .count-frame-2-home {
     display: none;
   }
 
@@ -1378,7 +1420,7 @@ h6 {
     height: 56px;
     border-radius: 30px;
     /* margin-left: 175px; */
-    background: #FFFBC7;
+    background: #fffbc7;
   }
 
   .img-layanan-detail-webdev {
@@ -1407,13 +1449,13 @@ h6 {
     margin-left: auto;
   }
 
-  .bg-layanan-detail-ads-dan-brandesign{
+  .bg-layanan-detail-ads-dan-brandesign {
     width: 100%;
     height: 470px;
     margin-left: auto;
     margin-top: auto;
   }
-  
+
   .icon-frame-home {
     display: none;
   }
@@ -1428,7 +1470,7 @@ h6 {
   }
 
   .count-image-1 {
-        /* width: 25px; */
+    /* width: 25px; */
     position: initial;
     text-align: center;
     bottom: -25px;
@@ -1457,6 +1499,44 @@ h6 {
     display: none;
   }
 
+  /*========== RESPONSIVE CAROUSEL =========*/
+  .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  left: 160px;
+  bottom: -330px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+  }
+
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  bottom: -330px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1399px) {
@@ -1466,7 +1546,7 @@ h6 {
   }
 
   .group-testimonial {
-    padding: 30px;
+    padding: 20px;
   }
 
   .card-layanan {
@@ -1504,7 +1584,8 @@ h6 {
 
   .bg-testimonial {
     width: 100%;
-    margin-left: -44px;
+    /* margin-left: -44px; */
+    margin: -35px;
   }
 
   .group-card-contact {
@@ -1536,7 +1617,7 @@ h6 {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
   }
-  
+
   /* .dropdown-menu {
     width: 100%;
   } */
@@ -1544,7 +1625,6 @@ h6 {
   .count-frame-contact {
     display: none;
   }
-  
 
   .img-layanan-detail-webdev {
     margin-top: 100px;
@@ -1577,10 +1657,10 @@ h6 {
     height: 56px;
     border-radius: 30px;
     /* margin-left: 120px; */
-    background: #FFFBC7;
+    background: #fffbc7;
   }
 
-  .bg-layanan-detail-ads-dan-brandesign{
+  .bg-layanan-detail-ads-dan-brandesign {
     width: 100%;
     height: 450px;
     margin-left: auto;
@@ -1624,7 +1704,7 @@ h6 {
     padding-bottom: 5px;
   }
 
-    .count-image-2 {
+  .count-image-2 {
     /* width: 25px; */
     position: initial;
     text-align: center;
@@ -1642,4 +1722,43 @@ h6 {
   .count-image-titik {
     display: none;
   }
+
+    /*========== RESPONSIVE CAROUSEL =========*/
+    .carousel-control-prev {
+      position: absolute;
+      top: 0;
+      left: 30px;
+      bottom: -400px;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15%;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      background: 0 0;
+      border: 0;
+      opacity: 1;
+      transition: opacity 0.15s ease;
+      }
+    
+    .carousel-control-next {
+      position: absolute;
+      top: 0;
+      left: 80px;
+      bottom: -400px;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15%;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      background: 0 0;
+      border: 0;
+      opacity: 1;
+      transition: opacity 0.15s ease;
+      }
 }
