@@ -18,6 +18,7 @@ body {
 .margin-top-web-2 {
   margin-top: 170px;
 }
+
 /* Close Style Margin */
 
 /* teat */
@@ -112,6 +113,28 @@ h6 {
 
 .heading-text-one-40 {
   font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-one-20 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading-text-one-18 {
+  line-height: 28px;
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph-text-one-18 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.paragraph-text-one-15 {
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -589,18 +612,190 @@ h6 {
 }
 /*========= Close Style Layanan Kami =========*/
 
+/*========= OPEN BLOG AND / BLOG DETAIL =========*/
+.img-home-blogdetail {
+  width: 100%;
+  height: 100%;
+}
+
+.grup-text-blog-detail {
+  padding: 30px;
+  margin: 30px auto;
+}
+
+.icon-blog-detail {
+  width: 46px;
+  height: 46px;
+}
+
+.grop-icon-blog-detail {
+  text-align: end;
+}
+
+.tablinks-blog-1 {
+  width: 150px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-blog-2 {
+  width: 124px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-blog-3 {
+  width: 190px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+/*========= Close BLOG AND / BLOG DETAIL =========*/
+
+/*========= Open CONTACT CSS =========*/
+.card-contact-cs {
+  width: 450px;
+  height: 100%;
+  /* height: 829px; */
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  border-radius: 20px;
+}
+
+.grup-text-contact {
+  padding: 60px;
+  margin: 10px auto;
+}
+
+.icon-ccontact {
+  width: 26px;
+  height: 26px;
+}
+
+.count-image-bulat-contact {
+  position: absolute;
+  text-align: center;
+  bottom: 600px;
+  margin-left: 1250px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  z-index: -1;
+}
+
+.bg-contact {
+  width: 330px;
+  height: 490px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  border-radius: 0px 500px 500px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  opacity: 0.1;
+}
+
+.btn-contact-cs {
+  width: 599px;
+  height: 73px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  background: #11293c;
+  border-radius: 14px;
+}
+
+.form-control-first-name {
+  width: 287px;
+  height: 57px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px;
+}
+
+.form-control-last-name {
+  width: 286px;
+  height: 57px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px;
+}
+
+.form-control-company-name {
+  width: 599px;
+  height: 57px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px;
+}
+
+.form-control-email {
+  width: 599px;
+  height: 57px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px;
+}
+
+.form-control-message {
+  width: 599px;
+  height: 154px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px;
+}
+
+.form-check-input {
+  width: 28px;
+  height: 28px;
+}
+
+
+/* workaround */
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+.form-control-tel {
+  width: 599px !important;
+  height: 57px;
+  border: 2px solid #EDEDED;
+  border-radius: 14px !important;
+}
+
+/*========= Close CONTACT CSS =========*/
+
 /*========= Open Style portfolio =========*/
 .card-portfolio {
   width: 358px;
   height: 447px;
-  padding: 5px;
-  margin: 15px auto;
-  background: #ffffff;
-  border-radius: 26px;
-  box-shadow: 2px 12px 40px rgba(190, 190, 190, 0.25);
+  padding: 15px;
+  margin: 10px auto;
 }
 
 .img-portfolio {
+  width: 346px;
+  height: 280px;
+}
+
+.img-portfolio-1 {
+  width: 280px;
+  height: 100%;
+}
+
+.img-portfolio-2 {
   width: 346px;
   height: 280px;
 }
@@ -700,6 +895,8 @@ h6 {
 .link-Portfolio {
   text-decoration: none;
   color: #000;
+  font-size: 14px;
+  font-weight: 700;
 }
 /* .group-text-portfolio {
   padding: 10px;
@@ -725,7 +922,7 @@ h6 {
   /* width: 25px; */
   position: absolute;
   text-align: center;
-  bottom: 500px;
+  bottom: 30px;
   margin-left: 0px;
   padding-top: 15px;
   padding-bottom: 5px;
@@ -736,8 +933,30 @@ h6 {
   /* width: 25px; */
   position: absolute;
   text-align: center;
-  bottom: 570px;
+  bottom: 270px;
   margin-left: 1420px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  z-index: -1;
+}
+
+.count-image-bulat-blog {
+  position: absolute;
+  text-align: center;
+  bottom: 710px;
+  margin-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  z-index: -1;
+}
+
+.count-image-titik-blog {
+  position: absolute;
+  width: 271px;
+  height: 91px;
+  text-align: center;
+  bottom: 680px;
+  margin-left: 1312px;
   padding-top: 15px;
   padding-bottom: 5px;
   z-index: -1;
@@ -906,6 +1125,51 @@ h6 {
   border-radius: 20px;
 }
 
+.tablinks-1 {
+  width: 125px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-2 {
+  width: 195px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-3 {
+  width: 145px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-4 {
+  width: 118px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.tablinks-5 {
+  width: 150px;
+  height: 57px;
+  left: 102px;
+  top: 0px;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+}
+
 .tablinks-different {
   width: 300px;
   height: 49px;
@@ -929,6 +1193,16 @@ h6 {
 }
 
 .tablinks-active {
+  padding: 14px 16px;
+  border-radius: 26px;
+  background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
+  border: none;
+  color: #fff !important;
+}
+
+.tablinks-active-1 {
+  width: 96px;
+  height: 57px;
   padding: 14px 16px;
   border-radius: 26px;
   background: linear-gradient(95.5deg, #fcf152 3.44%, #feda00 98.23%);
@@ -1090,9 +1364,6 @@ h6 {
 /* ======================================= CLOSE STYLE LAYANAN WEBDEV ======================================= */
 
 /*======== Open Style img titik ========*/
-.group-image-hero {
-  position: relative;
-}
 
 .count-frame-1-home {
   position: absolute;
@@ -1311,6 +1582,15 @@ h6 {
 
   .img-portfolio {
     width: 100%;
+  }
+
+  .img-portfolio-1 {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .img-portfolio-2 {
+    width: 100%;
     /* height: 100%; */
   }
 
@@ -1501,42 +1781,104 @@ h6 {
 
   /*========== RESPONSIVE CAROUSEL =========*/
   .carousel-control-prev {
-  position: absolute;
-  top: 0;
-  left: 160px;
-  bottom: -330px;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  background: 0 0;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.15s ease;
+    position: absolute;
+    top: 0;
+    left: 160px;
+    bottom: -330px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity 0.15s ease;
   }
 
-.carousel-control-next {
-  position: absolute;
-  top: 0;
-  left: 210px;
-  bottom: -330px;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  background: 0 0;
-  border: 0;
-  opacity: 1;
-  transition: opacity 0.15s ease;
+  .carousel-control-next {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    bottom: -330px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity 0.15s ease;
   }
+
+  /* OPEN RESPONSIVE MOBILE TEXT CENTER */
+  .text-center-mobile {
+    text-align: center;
+  }
+  /* CLOSE RESPONSIVE MOBILE TEXT CENTER */
+
+  .count-image-bulat-blog {
+    display: none;
+  }
+
+  .count-image-titik-blog {
+    display: none;
+  }
+
+  .grup-back-to-blog {
+    display: block !important;
+  }
+
+  .card-contact-cs {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bg-contact {
+    display: none;
+  }
+
+  .form-control-first-name  {
+    width: 100%;
+  }
+
+
+  .form-control-last-name {
+    width: 100%;
+  }
+
+
+  .form-control-company-name {
+    width: 100%;
+  }
+
+  .form-control-email {
+    width: 100%;
+  }
+
+ .form-control-message {
+  width: 100%;
+ }
+
+ .form-control-tel {
+  width: 100% !important;
+ }
+
+ .intl-tel-input {
+  width: 100%;
+ }
+
+ .btn-contact-cs {
+  width: 100%;
+ }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1399px) {
@@ -1568,6 +1910,15 @@ h6 {
   }
 
   .img-portfolio {
+    width: 100%;
+  }
+
+  .img-portfolio-1 {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .img-portfolio-2 {
     width: 100%;
     /* height: 100%; */
   }
@@ -1723,42 +2074,84 @@ h6 {
     display: none;
   }
 
-    /*========== RESPONSIVE CAROUSEL =========*/
-    .carousel-control-prev {
-      position: absolute;
-      top: 0;
-      left: 30px;
-      bottom: -400px;
-      z-index: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 15%;
-      padding: 0;
-      color: #fff;
-      text-align: center;
-      background: 0 0;
-      border: 0;
-      opacity: 1;
-      transition: opacity 0.15s ease;
-      }
-    
-    .carousel-control-next {
-      position: absolute;
-      top: 0;
-      left: 80px;
-      bottom: -400px;
-      z-index: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 15%;
-      padding: 0;
-      color: #fff;
-      text-align: center;
-      background: 0 0;
-      border: 0;
-      opacity: 1;
-      transition: opacity 0.15s ease;
-      }
+  /*========== RESPONSIVE CAROUSEL =========*/
+  .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    bottom: -400px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity 0.15s ease;
+  }
+
+  .carousel-control-next {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    bottom: -400px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity 0.15s ease;
+  }
+
+  .card-contact-cs {
+    width: 100%;
+  }
+
+  .form-control-first-name  {
+    width: 100%;
+  }
+
+
+  .form-control-last-name {
+    width: 100%;
+  }
+
+
+  .form-control-company-name {
+    width: 100%;
+  }
+
+  .form-control-email {
+    width: 100%;
+  }
+
+ .form-control-message {
+  width: 100%;
+ }
+
+ .form-control-tel {
+  width: 100% !important;
+ }
+
+ .intl-tel-input {
+  width: 100%;
+ }
+
+ .btn-contact-cs {
+  width: 100%;
+ }
+
+  .bg-contact {
+    display: none;
+  }
 }
