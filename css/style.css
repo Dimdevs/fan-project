@@ -699,6 +699,7 @@ h6 {
 }
 
 .btn-contact-cs {
+  padding: 23px;
   width: 599px;
   height: 73px;
   font-style: normal;
@@ -1063,6 +1064,13 @@ h6 {
 /* ======================================= OPEN STYLE TENTANG ======================================= */
 
 /*========= Open Our Team,Our Family =========*/
+.img-tentang-keunggulan {
+  width: 155px;
+  height: 155px;
+  filter: drop-shadow(6px 6px 40px #FCEE4F);
+}
+
+
 .card-our-team-tentang {
   width: 280px;
   height: 369px;
