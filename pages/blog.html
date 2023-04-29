@@ -81,7 +81,7 @@
                 <a class="nav-link" href="../pages/contact.html">Contact</a>
               </li>
               <li class="nav-item p-3">
-                <a class="btn btn-app-request" type="submit">Konsultasi sekarang</a>
+                <a class="btn btn-app-request" type="button" data-bs-toggle="modal" data-bs-target="#consultan-modal">Konsultasi sekarang</a>
               </li>
             </ul>
           </div>
@@ -521,6 +521,25 @@
 
 
 
+    <!-- modal group -->
+    <!-- Consultan Modal -->
+    <div class="modal fade" id="consultan-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <p>Development Fitur</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
